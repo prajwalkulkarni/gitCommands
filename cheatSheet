@@ -1,0 +1,15 @@
+git init -> initialize git in local repository
+
+git add "filename" -> Staging the files for tracking version control
+
+git status(under sub-directory) -> file status
+
+git log -> log information
+
+git checkout "filename" -> revert to previous state
+
+git commit -m 'message' "filename" -> commit file(save changes) with commit message
+
+fork -> create a copy of repository 
+
+star -> bookmark project
