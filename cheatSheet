@@ -10,6 +10,14 @@ git checkout "filename" -> revert to previous state
 
 git commit -m 'message' "filename" -> commit file(save changes) with commit message
 
-fork -> create a copy of repository 
+git remote add origin <git repo url> -> Establish pathway to host files onto repo.
 
-star -> bookmark project
+git remote set-url origin <git repo url> ->change remote url.
+
+git push -u origin master-> push files to repo.
+
+#fork -> create a copy of repository 
+
+#star -> bookmark project
+
+#pull request -> request to review changes.
