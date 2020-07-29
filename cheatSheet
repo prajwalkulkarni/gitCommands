@@ -20,6 +20,8 @@ git checkout <commit-id> -> Revert to previous commit(previous refers to any of 
 
 git checkout <branch-name> -> New branch
 
+git -a branch -> List all working branches
+
 #fork -> create a copy of repository 
 
 #star -> bookmark project
