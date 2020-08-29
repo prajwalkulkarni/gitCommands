@@ -18,7 +18,9 @@ git push -u origin master-> push files to repo. args -> -f merge pull request on
 
 git checkout <commit-id> -> Revert to previous commit(previous refers to any of the past commits)
 
-git checkout <branch-name> -> New branch
+git checkout <branch-name> -> switch to existing branch
+
+git checkout -b <new-branch> -> create a new branch
 
 git -a branch -> List all working branches
 
