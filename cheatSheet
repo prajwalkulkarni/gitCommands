@@ -24,8 +24,8 @@ git checkout -b <new-branch> -> create a new branch
 
 git -a branch -> List all working branches
 
-#fork -> create a copy of repository 
+#fork -> create a copy of repository. 
 
-#star -> bookmark project
+#star -> bookmark project.
 
 #pull request -> request to review changes.
