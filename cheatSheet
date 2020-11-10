@@ -28,4 +28,4 @@ git -a branch -> List all working branches
 
 #star -> bookmark project.
 
-#pull request -> request to review changes
+#pull request -> request to review changes.
