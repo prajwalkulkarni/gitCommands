@@ -29,3 +29,5 @@ git -a branch -> List all working branches
 <b>star</b> -> bookmark project.
 
 <b>pull request</b> -> request to review changes.
+
+git pull <repo-name> <branch> -> pull from the specified branch.
