@@ -30,4 +30,4 @@ git -a branch -> List all working branches
 
 <b>pull request</b> -> request to review changes.
 
-git pull <repo-name> <branch> -> pull from the specified branch.
+git pull <b>repo-name</b> <b>branch</b> -> pull from the specified branch.
