@@ -14,7 +14,7 @@ git remote add origin <git repo url> -> Establish pathway to host files onto rep
 
 git remote set-url origin <git repo url> ->change remote url.
 
-git push -u origin branch-> push files to repo. args -> -f merge pull request on selected branch
+git push -u origin <b>branch-name</b> -> push files to repo. args -> -f merge pull request on selected branch
 
 git checkout <commit-id> -> Revert to previous commit(previous refers to any of the past commits)
 
