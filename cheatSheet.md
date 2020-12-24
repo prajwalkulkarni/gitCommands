@@ -1,8 +1,9 @@
-git init -> initialize git in local repository
+<ul>
+  <li>git init -> initialize git in local repository</li>
 
-git add "filename" -> Staging the files for tracking version control
+<li>git add "filename" -> Staging the files for tracking version control</li>
 
-git status(under sub-directory) -> file status
+<li>git status(under sub-directory) -> file status</li>
 
 git log -> log information
 
