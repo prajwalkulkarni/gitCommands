@@ -5,30 +5,30 @@
 
 <li>git status(under sub-directory) -> file status</li>
 
-git log -> log information
+<li>git log -> log information</li>
 
-git checkout "filename" -> revert to previous state
 
-git commit -m 'message' "filename" -> commit file(save changes) with commit message
 
-git remote add origin <git repo url> -> Establish pathway to host files onto repo.
+<li>git commit -m 'message' "filename" -> commit file(save changes) with commit message</li>
 
-git remote set-url origin <git repo url> ->change remote url.
+<li>git remote add origin <git repo url> -> Establish pathway to host files onto repo.</li>
 
-git push -u origin <b>branch-name</b> -> push files to repo. args -> -f merge pull request on selected branch
+<li>git remote set-url origin <git repo url> ->change remote url.</li>
 
-git checkout <commit-id> -> Revert to previous commit(previous refers to any of the past commits)
+<li>git push -u origin <b>branch-name</b> -> push files to repo. args -> -f merge pull request on selected branch</li>
 
-git checkout <branch-name> -> switch to existing branch
+<li>git checkout <commit-id> -> Revert to previous commit(previous refers to any of the past commits)</li>
 
-git checkout -b <new-branch> -> create a new branch
+<li>git checkout <branch-name> -> switch to existing branch</li>
 
-git -a branch -> List all working branches
+<li>git checkout -b <new-branch> -> create a new branch</li>
 
-<b>fork</b> -> create a copy of repository. 
+<li>git -a branch -> List all working branches</li>
 
-<b>star</b> -> bookmark project.
+<li><b>fork</b> -> create a copy of repository. </li>
 
-<b>pull request</b> -> request to review changes.
+<li><b>star</b> -> bookmark project.</li>
 
-git pull <b>repo-name</b> <b>branch</b> -> pull from the specified branch.
+<li><b>pull request</b> -> request to review changes.</li>
+
+<li>git pull <b>repo-name</b> <b>branch</b> -> pull from the specified branch.</li>
