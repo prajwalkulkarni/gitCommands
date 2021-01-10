@@ -25,6 +25,8 @@
 
 <li>git -a branch -> List all working branches</li>
 
+<li>git -d <branch-name> -> Delete a branch</li>
+
 <li><b>fork</b> -> create a copy of repository. </li>
 
 <li><b>star</b> -> bookmark project.</li>
