@@ -4,4 +4,4 @@ Basic git commands with brief description.
 
 
 
-git mergetool -> git pull -> git add -> git commit -i 
+git mergetool -> git pull -> git add -> git commit -i .
