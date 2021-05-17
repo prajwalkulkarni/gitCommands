@@ -1,5 +1,5 @@
 <ul>
-  <li>git init -> initialize git in local repository</li>
+  <li>git init -> initialize git in local repository.</li>
 
 <li>git add "filename" -> Staging the files for tracking version control</li>
 
