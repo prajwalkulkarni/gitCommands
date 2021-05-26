@@ -25,9 +25,9 @@
 
 <li>git -a branch -> List all working branches</li>
 
-<li>git -d <i>branch-name</i> -> Delete a branch</li>
+<li>git -d <i>branch-name</i> -> Delete a branch.</li>
 
-<li>git -D <i>branch-name</i> -> Force delete a branch</li>
+<li>git -D <i>branch-name</i> -> Force delete a branch.</li>
 
 <li><b>fork</b> -> create a copy of repository. </li>
 
@@ -35,7 +35,7 @@
 
 <li><b>pull request</b> -> request to review changes.</li>
 
-<li>git pull <b>repo-name</b> <b>branch</b> -> pull from the specified branch</li>
+<li>git pull <b>repo-name</b> <b>branch</b> -> pull from the specified branch.</li>
 
 </ul>
 <hr>
