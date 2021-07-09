@@ -37,7 +37,7 @@
 
 <li>git pull <b>repo-name</b> <b>branch</b> -> pull from the specified branch.</li>
 
-</ul
+</ul>
 <hr>
 <hr>
 
