@@ -22,6 +22,8 @@
 <li>git checkout <i>branch-name</i> -> switch to existing branch</li>
 
 <li>git checkout -b <i>new-branch</i> -> create a new branch</li>
+  
+  <li>git remote -v -> remote url</li>
 
 <li>git -a branch -> List all working branches</li>
 
