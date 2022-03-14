@@ -11,7 +11,7 @@
 
 <li>git commit -m 'message' "filename" -> commit file(save changes) with commit message.</li>
 
-<li>git remote add origin <i>git repo url</i> -> Establish pathway to host files onto repo.</li>
+<li>git remote add origin <i>git repo url</i> -> Set remote origin.</li>
 
 <li>git remote set-url origin <i>git repo url</i> ->change remote url.</li>
 
