@@ -38,6 +38,8 @@
 <li><b>pull request</b> -> request to review changes.</li>
 
 <li>git pull <b>repo-name</b> <b>branch</b> -> pull from the specified branch.</li>
+  
+  <li> git log --branches --oneline --graph -> get hash of all commits</li>
 
 </ul>
 <hr>
