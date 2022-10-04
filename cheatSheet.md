@@ -30,6 +30,8 @@
 <li>git -a branch -> List all working branches</li>
 
 <li>git branch --delete <i>branch-name</i> -> Delete a branch.</li>
+  
+  <li>git branch -D <i>branch-name</i> -> Force delete a branch.</li>
 
 <li><b>fork</b> -> create a copy of repository. </li>
 
