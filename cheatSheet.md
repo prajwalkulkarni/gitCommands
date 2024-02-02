@@ -9,7 +9,7 @@
 
 
 
-<li>git commit -m 'message' "filename" -> commit file(save changes) with commit message.</li>
+<li>git commit -m <PATH_SPEC> 'message' "filename" -> commit file(save changes) with commit message. `PATH_SPEC` is optional, skipping it would commit only staged files</li>
 
 <li>git remote add origin <i>git repo url</i> -> Set remote origin.</li>
 
