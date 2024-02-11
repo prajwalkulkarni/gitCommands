@@ -7,8 +7,6 @@
 
 <li>git log -> log information</li>
 
-
-
 <li>git commit -m <PATH_SPEC> 'message' "filename" -> commit file(save changes) with commit message. `PATH_SPEC` is optional, skipping it would commit only staged files</li>
 
 <li>git remote add origin <i>git repo url</i> -> Set remote origin.</li>
@@ -42,6 +40,7 @@
 <li>git pull <b>repo-name</b> <b>branch</b> -> pull from the specified branch.</li>
   
   <li> git log --branches --oneline --graph -> get hash of all commits</li>
+<li>git cherry-pick <COMMIT_HASH> -> Extract changes done in a commit on another branch</li>
 
 </ul>
 <hr>
