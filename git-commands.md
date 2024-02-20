@@ -7,7 +7,7 @@
 
 <li>git log -> log information</li>
 
-<li>git commit -m <PATH_SPEC> 'message' "filename" -> commit file(save changes) with commit message. `PATH_SPEC` is optional, skipping it would commit only staged files</li>
+<li>git commit -m <i>PATH_SPEC</i> 'message' "filename" -> commit file(save changes) with commit message. `PATH_SPEC` is optional, skipping it would commit only staged files</li>
 
 <li>git remote add origin <i>git repo url</i> -> Set remote origin.</li>
 
@@ -41,7 +41,7 @@
   
   <li> git log --branches --oneline --graph -> get hash of all commits</li>
 <li>git cherry-pick <COMMIT_HASH> -> Extract changes done in a commit on another branch</li>
-<li>git branch -m <old_name> <new_name> -> Rename branch</old_name></li>
+<li>git branch -m <i>old_name</i> <i>new_name</i> -> Rename branch</li>
 
 </ul>
 <hr>
