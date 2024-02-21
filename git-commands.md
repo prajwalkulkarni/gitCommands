@@ -37,7 +37,7 @@
 
 <li><b>pull request</b> -> request to review changes.</li>
 
-<li>git pull <b>repo-name</b> <b>branch</b> -> pull from the specified branch.</li>
+<li>git pull <b>repo-name</b> <b>branch</b> -> pull from the specified branch. get pull = git fetch + git merge</li>
   
   <li> git log --branches --oneline --graph -> get hash of all commits</li>
 <li>git cherry-pick <COMMIT_HASH> -> Extract changes done in a commit on another branch</li>
