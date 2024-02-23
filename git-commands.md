@@ -3,7 +3,7 @@
 
 <li>git add "filename" -> Staging the files for tracking version control</li>
 
-<li>git status(under sub-directory) -> file status</li>
+<li>git status(under sub-directory) -> Status(modified, untracked) of files on the current branch</li>
 
 <li>git log -> log information</li>
 
