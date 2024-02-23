@@ -1,6 +1,8 @@
 <ul>
   <li>git init -> initialize git in local repository.</li>
 
+  <li>git rebase <i>branch_name</i> -> Merge changes into a branch without adding an extra commit. As if, a current branch was cut from the latest state of the parent branch </i></li>
+
 <li>git add "filename" -> Staging the files for tracking version control</li>
 
 <li>git status(under sub-directory) -> Status(modified, untracked) of files on the current branch</li>
