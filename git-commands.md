@@ -44,6 +44,7 @@
   <li> git log --branches --oneline --graph -> get hash of all commits</li>
 <li>git cherry-pick <COMMIT_HASH> -> Extract changes done in a commit on another branch</li>
 <li>git branch -m <i>old_name</i> <i>new_name</i> -> Rename branch</li>
+<li>git stash -> save working changes without commiting</li>
 
 </ul>
 <hr>
