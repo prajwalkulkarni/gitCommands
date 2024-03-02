@@ -46,6 +46,8 @@
 <li>git branch -m <i>old_name</i> <i>new_name</i> -> Rename branch</li>
 <li>git stash -> save working changes without commiting</li>
 <li>git stash pop -> Pop stashed changes</li>
+
+<li>git merge --abort -> Abort a merge commit, typically done when a pull results in a merge conflict</li>
 </ul>
 <hr>
 
