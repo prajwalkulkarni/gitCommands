@@ -49,6 +49,7 @@
 
 <li>git merge --abort -> Abort a merge commit, typically done when a pull results in a merge conflict</li>
 <li>git reset --merge -> Revert conflicts arising due to diff in stashed changes and the current head</li>
+<li>git reset --soft HEAD~n -> n is the number of commits to revert</li>
 </ul>
 <hr>
 
