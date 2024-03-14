@@ -2,4 +2,4 @@
 
 CLI git commands<br>
 
-Git commands and their brief descriptions.
+Git commands and their descriptions.
