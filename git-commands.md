@@ -42,7 +42,7 @@
 <li>git pull <b>repo-name</b> <b>branch</b> -> pull from the specified branch. get pull = git fetch + git merge</li>
   
   <li> git log --branches --oneline --graph -> get hash of all commits</li>
-<li>git cherry-pick <COMMIT_HASH> -> Extract changes done in a commit on another branch</li>
+<li>git cherry-pick <i>COMMIT_HASH</i> -> Extract changes done in a commit on another branch</li>
 <li>git branch -m <i>old_name</i> <i>new_name</i> -> Rename branch</li>
 <li>git stash -> save working changes without commiting</li>
 <li>git stash pop -> Pop stashed changes</li>
