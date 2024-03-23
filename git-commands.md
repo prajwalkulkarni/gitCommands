@@ -53,7 +53,7 @@
 <li>git reset 'HEAD@{n}' -> Move tip forward n times/undo git reset</li>
 <li>git reset <b>file-name</b> -> Unstage file, pass no arguments to unstage all files</li>
 
-<li>git bisect <subcommand> <options> -> </li>
+<li>git bisect <i>subcommand</i> <i>options</i> ->  Use binary search to find the commit that introduced a bug </li>
 </ul>
 <hr>
 
