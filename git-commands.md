@@ -42,16 +42,25 @@
   <li>git pull <b>repo-name</b> <b>branch</b> -> pull from the specified branch. get pull = git fetch + git merge</li>
   
   <li> git log --branches --oneline --graph -> get hash of all commits</li>
+  
   <li>git cherry-pick <i>COMMIT_HASH</i> -> Extract changes done in a commit on another branch</li>
+  
   <li>git branch -m <i>old_name</i> <i>new_name</i> -> Rename branch</li>
+  
   <li>git stash -> save working changes without commiting</li>
+  
   <li>git stash pop -> Pop stashed changes</li>
 
   <li>git merge --abort -> Abort a merge commit, typically done when a pull results in a merge conflict</li>
+  
   <li>git reset --merge -> Revert conflicts arising due to diff in stashed changes and the current head</li>
-  <li>git reset --soft HEAD~n -> n is the number of commits to revert</li>
+  
+  <li>git reset --soft HEAD~n -> n is the number of commits to revert</li
+                                                                       
   <li>git reset 'HEAD@{n}' -> Move tip forward n times/undo git reset</li>
+  
   <li>git reset <b>file-name</b> -> Unstage file, pass no arguments to unstage all files</li>
+  
   <li>git bisect <i>sub-command</i> <i>options</i> ->  Use binary search to find the commit that introduced a bug </li>
 </ul>
 <hr>
