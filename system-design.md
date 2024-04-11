@@ -12,4 +12,10 @@ HLD or high-level design involves defining:
 #### LLD
 LLD or low-level design involves:
 - Component architecture
-- Protocols, schemas and implementation details
+- Protocols, schemas, and implementation details
+
+
+### HLD
+- Requirements: Functional
+  - Essentially building blocks of the application
+  - Mandatory features that shape the product
