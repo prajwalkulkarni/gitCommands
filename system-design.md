@@ -19,3 +19,13 @@ LLD or low-level design involves:
 - Requirements: Functional
   - Essentially building blocks of the application
   - Mandatory features that shape the product
+
+- Requirements: Non-functional
+  - Generic features that enhance the UX, although it is termed as non-functional, it is important to implement the non-functional requirements as well.
+  - Accessibility
+  - Availability
+  - Consistency
+  - Localisation
+  - Performance
+  - Logging & Monitoring
+  - Security
