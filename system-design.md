@@ -24,6 +24,8 @@ LLD or low-level design involves:
   - Generic features that enhance the UX, although it is termed as non-functional, it is important to implement the non-functional requirements as well.
   - Accessibility
   - Availability
+  - Asset Optimization
+  - Web Vitals
   - Consistency
   - Localisation
   - Performance
