@@ -31,3 +31,10 @@ LLD or low-level design involves:
   - Performance
   - Logging & Monitoring
   - Security
+ 
+
+#### Performance
+- Lazy loading
+- Using `async` & `defer` in script tags to avoid render blocking
+- Intersection Observer (content-visiblity)
+- Resource hinting (dns-prefetch, preconnect)
