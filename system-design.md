@@ -33,9 +33,12 @@ LLD or low-level design involves:
   - Security
  
 
-#### Performance
+#### Performance (Network optimization)
 - Lazy loading
 - Using `async` & `defer` in script tags to avoid render blocking
-- Intersection Observer (content-visiblity)
+- Intersection Observer (content-visibility)
 - Resource hinting (dns-prefetch, preconnect, prefetch, prerender)
 - Rendering (Parsing -> Creating DOM & CSSOM -> Create render tree -> Create layout tree -> Create paint tree -> Draw pixels(Compositing))
+
+#### Performance (Asset optimisation)
+- Using `picture`'s `srcset`
