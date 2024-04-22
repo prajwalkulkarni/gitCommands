@@ -1,5 +1,5 @@
 <ul>
-  <li>git init -> initialize git in local repository.</li>
+  <li>git init -> initialize git in local repository</li>
 
   <li>git rebase <i>branch_name</i> -> Merge changes into a branch without adding an extra commit. As if, a current branch was cut from the latest state of the parent branch </i></li>
 
@@ -11,9 +11,9 @@
 
   <li>git commit -m <i>PATH_SPEC</i> 'message' "filename" -> commit file(save changes) with commit message. `PATH_SPEC` is optional, skipping it would commit only staged files</li>
 
-  <li>git remote add origin <i>git repo url</i> -> Set remote origin.</li>
+  <li>git remote add origin <i>git repo url</i> -> Set remote origin</li>
 
-  <li>git remote set-url origin <i>git repo url</i> ->change remote url.</li>
+  <li>git remote set-url origin <i>git repo url</i> ->change remote url</li>
 
   <li>git push -u origin <b>branch-name</b> -> push files to repo. args -> -f merge pull request on selected branch</li>
 
@@ -29,13 +29,13 @@
 
   <li>git -a branch -> List all working branches</li>
 
-  <li>git branch --delete <i>branch-name</i> -> Delete a branch.</li>
+  <li>git branch --delete <i>branch-name</i> -> Delete a branch</li>
   
-  <li>git branch -D <i>branch-name</i> -> Force delete a branch.</li>
+  <li>git branch -D <i>branch-name</i> -> Force delete a branch</li>
 
-  <li><b>fork</b> -> create a copy of repository. </li>
+  <li><b>fork</b> -> create a copy of repository</li>
 
-  <li><b>star</b> -> bookmark project.</li>
+  <li><b>star</b> -> bookmark project</li>
 
   <li><b>pull request</b> -> request to review changes.</li>
 
@@ -55,7 +55,7 @@
   
   <li>git reset --merge -> Revert conflicts arising due to diff in stashed changes and the current head</li>
   
-  <li>git reset --soft HEAD~n -> n is the number of commits to revert</li
+  <li>git reset --soft HEAD~n -> n is the number of commits to revert</li>
                                                                        
   <li>git reset 'HEAD@{n}' -> Move tip forward n times/undo git reset</li>
   
