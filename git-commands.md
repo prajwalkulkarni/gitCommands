@@ -58,6 +58,8 @@
   <li>git reset --soft HEAD~n -> n is the number of commits to revert</li>
                                                                        
   <li>git reset 'HEAD@{n}' -> Move tip forward n times/undo git reset</li>
+
+  <li>git stash clear -> Drop all stashed changes from the list</li>
   
   <li>git reset <b>file-name</b> -> Unstage file, pass no arguments to unstage all files</li>
   
