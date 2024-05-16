@@ -59,4 +59,6 @@ XSS or cross-site scripting is a compromised security attack that lets the hacke
 
 ### CSRF (Cross-site Request Forgery)
 
-
+As the name suggests, it is the ability to make a request from another origin by exploiting the session ID/cookie to disguise it as the actual user making the request.
+This attack works even with `CORS` enabled. This can be accomplished by using `form` action, when a form is submitted using the `action` attribute, the rules of `CORS` are not applied.
+In order to protect the users against this attack, a CSRF token should be issued by the server along with the auth token or session id, this CSRF token is stored in-memory of the server. So everytime a request is made, along with the auth token, the csrf token is verified for its credibility. Since the cross-site wouldn't have access to this, the attack would fail. 
