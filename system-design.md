@@ -57,4 +57,6 @@ XSS or cross-site scripting is a compromised security attack that lets the hacke
 - Stored XSS attack: This happens when there is a lack of input sanitization. This would allow the attacker to input a malicious script in an input field. This value is stored or persisted on the server/database and subsequently, whenever other users try to access this part of the application, the script is executed on the client side and they become a victim of the attack.
 - Reflected XSS attack: This involves identifying various entry points of the application that are vulnerable to this attack, mostly trying to run the script on different paths and query parameters. E.g.: `https://xyz.com/path1?key=</script><script>alrt(1)</script>`, if visiting this link renders an alert, it means that the security of the application is compromised here. The attacker can then send this link to the target and if the target clicks it, the attacker will be able to run this script on the target's browser and retrieve the desired information, i.e, using `document.cookie` can be used to sniff session cookie which would enable the attacker to gain login access of the target user without the need of login credentials. 
 
-### CSRF (Cross-site Resource Forgery)
+### CSRF (Cross-site Request Forgery)
+
+
