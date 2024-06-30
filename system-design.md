@@ -44,7 +44,12 @@ LLD or low-level design involves:
 - Using `picture`'s `srcset`
 - Use infinite scrolling on content visibility
 
-
+### Performance (JS & React)
+- Event delegation
+- Avoid unnecessary re-renders
+- Try and use React.memo, but do not overuse it
+- Virtualize large lists
+- Memoization
 
 ## Security
 ### JWT
