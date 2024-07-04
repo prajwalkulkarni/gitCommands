@@ -50,7 +50,7 @@ LLD or low-level design involves:
 - Try and use React.memo, but do not overuse it
 - Virtualize large lists
 - Memoization
-- Correct use of closures
+- Correct use of closures to avoid memory leaks
 
 ## Security
 ### JWT
