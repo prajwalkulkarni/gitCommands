@@ -43,7 +43,7 @@ LLD or low-level design involves:
 #### Performance (Asset optimization)
 - Using `picture`'s `srcset`
 - Use infinite scrolling on content visibility
-- Use webp image formats for better performance
+- Use `webp` image format for better performance
 
 ### Performance (JS & React)
 - Event delegation
