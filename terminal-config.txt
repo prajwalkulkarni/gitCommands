@@ -1,0 +1,76 @@
+# If you come from bash you might have to change your $PATH.
+
+# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+
+
+
+# Path to your Oh My Zsh installation.
+
+export ZSH="$HOME/.oh-my-zsh"
+
+
+
+
+
+
+
+# Which plugins would you like to load?
+
+# Standard plugins can be found in $ZSH/plugins/
+
+# Custom plugins may be added to $ZSH_CUSTOM/plugins/
+
+# Example format: plugins=(rails git textmate ruby lighthouse)
+
+# Add wisely, as too many plugins slow down shell startup.
+
+plugins=(git)
+
+
+
+source $ZSH/oh-my-zsh.sh
+
+
+
+
+
+export NVM_DIR="$HOME/.nvm"
+
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+
+
+function parse_git_branch() {
+
+    git branch 2> /dev/null | sed -n -e 's/^\* \(.*\)/[\1]/p'
+
+}
+
+
+
+setopt PROMPT_SUBST
+
+export PROMPT='%F{grey}%n%f %F{cyan}%~%f %F{green}$(parse_git_branch)%f %F{normal}$%f '
+
+export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
+
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+
+export PATH="$ANDROID_HOME/platform-tools:$PATH"
+
+export PATH="$ANDROID_HOME/tools:$PATH"
+
+
+
+# Created by `pipx` on 2026-05-04 13:30:16
+
+export PATH="$PATH:/Users/prajwalkulkarni/.local/bin"
+
+export PATH="$HOME/.local/bin:$PATH"
+
